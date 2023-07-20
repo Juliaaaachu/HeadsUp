@@ -14,6 +14,7 @@
 		C68880222A6784AC002F8CDA /* HeadsUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68880212A6784AC002F8CDA /* HeadsUpTests.swift */; };
 		C688802C2A6784AC002F8CDA /* HeadsUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C688802B2A6784AC002F8CDA /* HeadsUpUITests.swift */; };
 		C688802E2A6784AC002F8CDA /* HeadsUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C688802D2A6784AC002F8CDA /* HeadsUpUITestsLaunchTests.swift */; };
+		C688803B2A6785AE002F8CDA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C688803A2A6785AE002F8CDA /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C68880272A6784AC002F8CDA /* HeadsUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadsUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C688802B2A6784AC002F8CDA /* HeadsUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsUpUITests.swift; sourceTree = "<group>"; };
 		C688802D2A6784AC002F8CDA /* HeadsUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C688803A2A6785AE002F8CDA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				C68880102A6784A8002F8CDA /* HeadsUpApp.swift */,
 				C68880122A6784A8002F8CDA /* ContentView.swift */,
+				C688803A2A6785AE002F8CDA /* Home.swift */,
 				C68880142A6784AC002F8CDA /* Assets.xcassets */,
 				C68880162A6784AC002F8CDA /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68880132A6784A8002F8CDA /* ContentView.swift in Sources */,
+				C688803B2A6785AE002F8CDA /* Home.swift in Sources */,
 				C68880112A6784A8002F8CDA /* HeadsUpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
