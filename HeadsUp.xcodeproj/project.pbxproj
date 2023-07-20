@@ -15,6 +15,12 @@
 		C688802C2A6784AC002F8CDA /* HeadsUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C688802B2A6784AC002F8CDA /* HeadsUpUITests.swift */; };
 		C688802E2A6784AC002F8CDA /* HeadsUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C688802D2A6784AC002F8CDA /* HeadsUpUITestsLaunchTests.swift */; };
 		C688803B2A6785AE002F8CDA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C688803A2A6785AE002F8CDA /* Home.swift */; };
+		C698EBE02A68BD9500AA8AC1 /* Silkscreen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C698EBDE2A68BD9500AA8AC1 /* Silkscreen-Regular.ttf */; };
+		C698EBE12A68BD9500AA8AC1 /* Silkscreen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C698EBDE2A68BD9500AA8AC1 /* Silkscreen-Regular.ttf */; };
+		C698EBE22A68BD9500AA8AC1 /* Silkscreen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C698EBDE2A68BD9500AA8AC1 /* Silkscreen-Regular.ttf */; };
+		C698EBE32A68BD9500AA8AC1 /* Silkscreen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C698EBDF2A68BD9500AA8AC1 /* Silkscreen-Bold.ttf */; };
+		C698EBE42A68BD9500AA8AC1 /* Silkscreen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C698EBDF2A68BD9500AA8AC1 /* Silkscreen-Bold.ttf */; };
+		C698EBE52A68BD9500AA8AC1 /* Silkscreen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C698EBDF2A68BD9500AA8AC1 /* Silkscreen-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,9 @@
 		C688802B2A6784AC002F8CDA /* HeadsUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsUpUITests.swift; sourceTree = "<group>"; };
 		C688802D2A6784AC002F8CDA /* HeadsUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C688803A2A6785AE002F8CDA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C698EBDE2A68BD9500AA8AC1 /* Silkscreen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Regular.ttf"; sourceTree = "<group>"; };
+		C698EBDF2A68BD9500AA8AC1 /* Silkscreen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Bold.ttf"; sourceTree = "<group>"; };
+		C698EBE62A68BEB400AA8AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +105,13 @@
 		C688800F2A6784A8002F8CDA /* HeadsUp */ = {
 			isa = PBXGroup;
 			children = (
+				C698EBE62A68BEB400AA8AC1 /* Info.plist */,
 				C68880102A6784A8002F8CDA /* HeadsUpApp.swift */,
 				C68880122A6784A8002F8CDA /* ContentView.swift */,
 				C688803A2A6785AE002F8CDA /* Home.swift */,
 				C68880142A6784AC002F8CDA /* Assets.xcassets */,
+				C698EBDF2A68BD9500AA8AC1 /* Silkscreen-Bold.ttf */,
+				C698EBDE2A68BD9500AA8AC1 /* Silkscreen-Regular.ttf */,
 				C68880162A6784AC002F8CDA /* Preview Content */,
 			);
 			path = HeadsUp;
@@ -234,8 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C698EBE32A68BD9500AA8AC1 /* Silkscreen-Bold.ttf in Resources */,
 				C68880182A6784AC002F8CDA /* Preview Assets.xcassets in Resources */,
 				C68880152A6784AC002F8CDA /* Assets.xcassets in Resources */,
+				C698EBE02A68BD9500AA8AC1 /* Silkscreen-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +257,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C698EBE42A68BD9500AA8AC1 /* Silkscreen-Bold.ttf in Resources */,
+				C698EBE12A68BD9500AA8AC1 /* Silkscreen-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +266,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C698EBE52A68BD9500AA8AC1 /* Silkscreen-Bold.ttf in Resources */,
+				C698EBE22A68BD9500AA8AC1 /* Silkscreen-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +441,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HeadsUp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeadsUp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +470,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HeadsUp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeadsUp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

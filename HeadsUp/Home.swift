@@ -10,7 +10,7 @@ import SwiftUI
 struct Home: View {
     var body: some View {
         VStack {
-            Text("hi")
+            Text("Start").font(.custom("Silkscreen-Regular", size: 46))
             Text("hi")
         }
     }
