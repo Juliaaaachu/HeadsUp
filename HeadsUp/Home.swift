@@ -9,11 +9,29 @@ import SwiftUI
 
 struct Home: View {
     var body: some View {
-        VStack {
-            Text("Start").font(.custom("Silkscreen-Regular", size: 46))
-            Text("hi")
+        ZStack{
+            VStack(spacing:0){
+                Image("background")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                Image("background")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+            }
+            .opacity(0.4)
+            Button(action: {
+                print("HI")
+            }) {
+                Text("Start")
+                    .font(.custom("Silkscreen-Regular", size: 50))
+                    .foregroundColor(.black)
+                    .padding(5)
+            }
+            .background()
+            .cornerRadius(5)
         }
-    }
+
+        }
 }
 
 struct Home_Previews: PreviewProvider {
@@ -21,3 +39,4 @@ struct Home_Previews: PreviewProvider {
         Home()
     }
 }
+
