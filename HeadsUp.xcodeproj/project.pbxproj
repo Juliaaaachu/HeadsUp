@@ -21,6 +21,9 @@
 		C698EBE32A68BD9500AA8AC1 /* Silkscreen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C698EBDF2A68BD9500AA8AC1 /* Silkscreen-Bold.ttf */; };
 		C698EBE42A68BD9500AA8AC1 /* Silkscreen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C698EBDF2A68BD9500AA8AC1 /* Silkscreen-Bold.ttf */; };
 		C698EBE52A68BD9500AA8AC1 /* Silkscreen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C698EBDF2A68BD9500AA8AC1 /* Silkscreen-Bold.ttf */; };
+		C6AE2D5B2A734BD500C5C6F1 /* DeckScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE2D5A2A734BD500C5C6F1 /* DeckScreen.swift */; };
+		C6AE2D5C2A734BD500C5C6F1 /* DeckScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE2D5A2A734BD500C5C6F1 /* DeckScreen.swift */; };
+		C6AE2D5D2A734BD500C5C6F1 /* DeckScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE2D5A2A734BD500C5C6F1 /* DeckScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,7 @@
 		C698EBDE2A68BD9500AA8AC1 /* Silkscreen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Regular.ttf"; sourceTree = "<group>"; };
 		C698EBDF2A68BD9500AA8AC1 /* Silkscreen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Bold.ttf"; sourceTree = "<group>"; };
 		C698EBE62A68BEB400AA8AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C6AE2D5A2A734BD500C5C6F1 /* DeckScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 				C698EBDF2A68BD9500AA8AC1 /* Silkscreen-Bold.ttf */,
 				C698EBDE2A68BD9500AA8AC1 /* Silkscreen-Regular.ttf */,
 				C68880162A6784AC002F8CDA /* Preview Content */,
+				C6AE2D5A2A734BD500C5C6F1 /* DeckScreen.swift */,
 			);
 			path = HeadsUp;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 			files = (
 				C68880132A6784A8002F8CDA /* ContentView.swift in Sources */,
 				C688803B2A6785AE002F8CDA /* Home.swift in Sources */,
+				C6AE2D5B2A734BD500C5C6F1 /* DeckScreen.swift in Sources */,
 				C68880112A6784A8002F8CDA /* HeadsUpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6AE2D5C2A734BD500C5C6F1 /* DeckScreen.swift in Sources */,
 				C68880222A6784AC002F8CDA /* HeadsUpTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C688802C2A6784AC002F8CDA /* HeadsUpUITests.swift in Sources */,
+				C6AE2D5D2A734BD500C5C6F1 /* DeckScreen.swift in Sources */,
 				C688802E2A6784AC002F8CDA /* HeadsUpUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
